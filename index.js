@@ -17,6 +17,6 @@ app.post('/sms', (req, res) => {
   res.type('text/xml').send(twiml.toString());
 });
 
-app.listen(4000, () => {
-  console.log('Express server listening on port 4000');
+app.listen(3000, () => {
+  console.log('Express server listening on port 3000');
 });
